@@ -17,6 +17,8 @@ debian/vyatta-cfg-quagga-serial
 debian/vyatta-cfg-quagga-dataplane
 debian/*.debhelper.log
 debian/*.substvars
+debian/.debhelper/
+debian/changelog.*
 INSTALL
 Makefile.in
 Makefile

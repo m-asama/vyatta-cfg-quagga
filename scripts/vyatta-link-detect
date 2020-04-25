@@ -12,6 +12,9 @@ if [ $# -ne 2 ]; then
     usage
 fi
 
+# XXX: not supported sysctl link_filter
+exit
+
 # Note can't use sysctl it is broken for vif name because of dots
 # link_filter values:
 #   0 - always receive
